@@ -15,7 +15,7 @@ npm i --save @eahefnawy/backend.js
 ## Usage
 
 ```js
-const backend = require('@eahefnawy/backend.js`)
+const backend = require('@eahefnawy/backend.js')
 
 const config = {
   import: ['sendSms', 'sendEmail'], // λ function names that you'd like to import
