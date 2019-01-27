@@ -1,16 +1,15 @@
 backend.js is a super light module that lets you imports your λ functions into the browser as a backend library.
 
-### Installation
-
-```
-npm i --save @eahefnawy/backend.js
-```
-
 ### Usage
 
 **Important Note:** To keep your AWS account secure, make sure you pass access keys with limited access to **only** invoke the functions you want to invoke. 
 
 #### React
+
+```
+npm i --save @eahefnawy/backend.js
+```
+
 ```js
 import { backend } from '@eahefnawy/backend.js'
 
