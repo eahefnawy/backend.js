@@ -23,7 +23,11 @@ const config = {
   accessKeyId: 'xxx',
   secretAccessKey: 'xxx'
 }
+
 const { sendSms, sendEmail } = backend(config)
+
+await sendSms(inputs)
+await sendEmail(inputs)
 
 ```
 
