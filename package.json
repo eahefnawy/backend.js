@@ -1,0 +1,23 @@
+{
+  "name": "@eahefnawy/backend.js",
+  "version": "1.0.3",
+  "description": "Import your λ functions into the browser.",
+  "main": "src/index.js",
+  "author": "Eslam λ Hefnawy <eahefnawy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws4fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3",
+    "standard": "^12.0.1",
+    "browserify": "^16.2.3",
+    "tinyify": "^2.4.0"
+  },
+  "scripts": {
+    "build": "browserify -p tinyify src/index.js -o dist/backend.umd.min.js -s backend"
+  },
+  "files": [
+    "dist"
+  ]
+}
